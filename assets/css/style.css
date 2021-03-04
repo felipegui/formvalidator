@@ -36,3 +36,10 @@ body {
     font-size: 14px;
     outline: 0;
 }
+.error {
+    font-size: 11px;
+    background-color: red;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+}
