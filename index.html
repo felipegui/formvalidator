@@ -11,15 +11,15 @@
 <body>
     <div class="screen">
         <div class="leftside">
-            <img src="assets/image/financial_data.png" alt="" srcset="">
+            <img src="assets/image/financial_data.png" alt="">
         </div>
         <div class="rightside">
             <h1>Crie uma conta</h1>
 
-            <form method="post">
+            <form action="cadastro.php" method="post" class="fagvalidator">
                 <label>
                     Seu nome:</br>
-                    <input type="text" name="name"/>
+                    <input type="text" name="name" data-rules="required|min=3"/>
                 </label>
                 <label>
                     Seu e-mail:</br>
